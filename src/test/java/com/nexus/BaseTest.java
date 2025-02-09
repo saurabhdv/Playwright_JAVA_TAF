@@ -30,6 +30,7 @@ public class BaseTest {
     /*Test Isolation
     Playwright has the concept of a BrowserContext which is an in-memory isolated browser profile.
     It's recommended to create a new BrowserContext for each test to ensure they don't interfere with each other.
+
      */
 
     @BeforeClass
