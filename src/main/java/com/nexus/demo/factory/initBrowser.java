@@ -14,7 +14,8 @@ public class initBrowser {
     BrowserContext browserContext, tracebrowserContext;
     Page page, tracepage;
 
-    static String urlPath = "https://da-admin.swedencentral.cloudapp.azure.com:8443/";
+    static String urlPath = "https://da-dev1.test.nexusgroup.com:8443/";
+            //"https://da-admin.swedencentral.cloudapp.azure.com:8443/";
 
     public initBrowser(Properties p) {
 String headless = p.getProperty("headless");

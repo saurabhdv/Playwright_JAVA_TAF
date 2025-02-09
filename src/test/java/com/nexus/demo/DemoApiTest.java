@@ -23,7 +23,7 @@ public class DemoApiTest extends BaseTest {
                 .setStorageStatePath(path)
                 .setIgnoreHTTPSErrors(true)
         );
-        APIResponse response =requestContext.get("https://da-test-8.swedencentral.cloudapp.azure.com:8443/swagger/#/AccessRule/getAccessRules");
+        APIResponse response =requestContext.get("https://da-dev1.test.nexusgroup.com:8443/swagger/#/AccessRule/getAccessRules");
         System.out.println("STATUS:-"+ response.status() );
         Assert.assertTrue(response.ok(), "error fetching API status");
 
